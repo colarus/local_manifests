@@ -54,13 +54,15 @@
   <project name="derfelot/android_bionic" path="bionic" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_external_chromium_org_third_party_boringssl_src" path="external/chromium_org/third_party/boringssl/src" remote="github" revision="cm-12.1" />
-  <project name="derfelot/android_bootable_recovery" path="bootable/recovery" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_external_libnfc-nci" path="external/libnfc-nci" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="github" revision="cm-12.1" />
 
+  <!-- TWRP -->
+  <project name="omnirom/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-7.1"/>
+
   <!-- common Sony stuff -->
   <project name="derfelot/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="cm-12.1"/>
-  <project name="derfelot/android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github" revision="cm-12.1"/>
+  <project name="derfelot/android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github" revision="cm-12.1-twrp"/>
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1"/>
   <project name="LineageOS/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-12.1"/>
   <project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-12.1"/>
@@ -70,11 +72,11 @@
   <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="github" revision="cm-12.1"/>
 
   <!-- z1c -->
-  <project name="derfelot/android_device_sony_amami" path="device/sony/amami" remote="github" revision="cm-12.1"/>
-  <project name="derfelot/android_device_sony_rhine-common" path="device/sony/rhine-common" remote="github" revision="cm-12.1"/>
+  <project name="derfelot/android_device_sony_amami" path="device/sony/amami" remote="github" revision="cm-12.1-twrp"/>
+  <project name="derfelot/android_device_sony_rhine-common" path="device/sony/rhine-common" remote="github" revision="cm-12.1-twrp"/>
 
   <!-- z3c -->
-  <project name="derfelot/android_device_sony_z3c" path="device/sony/z3c" remote="github" revision="cm-12.1"/>
-  <project name="derfelot/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="github" revision="cm-12.1"/>
+  <project name="derfelot/android_device_sony_z3c" path="device/sony/z3c" remote="github" revision="cm-12.1-twrp"/>
+  <project name="derfelot/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="github" revision="cm-12.1-twrp"/>
 
 </manifest>
