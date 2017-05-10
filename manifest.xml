@@ -26,7 +26,6 @@
   <remove-project name="LineageOS/android_bootable_recovery" />
   <remove-project name="LineageOS/android_external_libnfc-nci" />
   <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
-  <remove-project name="LineageOS/android_frameworks_native" />
   <remove-project name="LineageOS/android_external_skia" />
   <remove-project name="LineageOS/android_external_sonivox" />
   
@@ -46,7 +45,7 @@
   <project name="derfelot/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="cm-12.1-test"/>
   <project name="derfelot/android_system_core" path="system/core" remote="github" revision="cm-12.1"/>
   <project name="derfelot/android_platform_external_libnl" path="external/libnl" remote="github" revision="cm-12.1-test" />
-  <project name="derfelot/android_frameworks_native" path="frameworks/native" remote="github" revision="cm-12.1" />
+  <project name="derfelot/android_frameworks_native" path="frameworks/native" remote="github" revision="cm-12.1-test" />
   <project name="derfelot/android_external_tremolo" path="external/tremolo" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_external_libhevc" path="external/libhevc" remote="github" revision="cm-12.1-test" />
   <project name="derfelot/android_external_libvpx" path="external/libvpx" remote="github" revision="cm-12.1" />
@@ -60,7 +59,6 @@
   <project name="derfelot/android_bootable_recovery" path="bootable/recovery" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_external_libnfc-nci" path="external/libnfc-nci" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="github" revision="cm-12.1" />
-  <project name="derfelot/android_frameworks_native" path="frameworks/native" remote="github" revision="cm-12.1-test"/>
   <project name="derfelot/android_external_skia" path="external/skia" remote="github" revision="cm-12.1-test"/>
   <project name="derfelot/android_external_sonivox" path="external/sonivox" remote="github" revision="cm-12.1-test"/>
   
