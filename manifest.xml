@@ -86,6 +86,7 @@
   <project path="external/freetype" name="LineageOS/android_external_freetype" groups="pdk" remote="github" revision="cm-13.0" />
 
   <!-- Exclude CMUpdater from build -->
+  <remove-project name="LineageOS/android_packages_apps_CMUpdater" />
   <remove-project name="LineageOS/android_vendor_cm" />
   <project path="vendor/cm" name="derfelot/android_vendor_cm" remote="github" revision="cm-12.1-test" />
   
