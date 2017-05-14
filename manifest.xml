@@ -26,7 +26,9 @@
   <remove-project name="LineageOS/android_bootable_recovery" />
   <remove-project name="LineageOS/android_external_libnfc-nci" />
   <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
-
+  <remove-project name="platform/external/giflib" />
+  <remove-project name="LineageOS/android_external_bluetooth_bluedroid" />
+  
   <!-- Add own repos -->
   <project name="derfelot/android_build" path="build" remote="github" revision="cm-12.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -57,7 +59,9 @@
   <project name="derfelot/android_bootable_recovery" path="bootable/recovery" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_external_libnfc-nci" path="external/libnfc-nci" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="github" revision="cm-12.1" />
-
+  <project name="derfelot/android_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" remote="github" revision="cm-12.1" />
+  <project name="derfelot/android_platform_external_giflib" path="external/giflib" remote="github" revision="cm-12.1" />  
+  
   <!-- common Sony stuff -->
   <project name="derfelot/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="cm-12.1"/>
   <project name="derfelot/android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github" revision="cm-12.1"/>
