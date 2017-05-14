@@ -26,6 +26,8 @@
   <remove-project name="LineageOS/android_bootable_recovery" />
   <remove-project name="LineageOS/android_external_libnfc-nci" />
   <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
+  <remove-project name="LineageOS/android_external_sonivox" />
+  <remove-project name="LineageOS/android_external_skia" />
 
   <!-- Add own repos -->
   <project name="derfelot/android_build" path="build" remote="github" revision="cm-12.1" >
@@ -57,6 +59,8 @@
   <project name="derfelot/android_bootable_recovery" path="bootable/recovery" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_external_libnfc-nci" path="external/libnfc-nci" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="github" revision="cm-12.1" />
+  <project path="external/sonivox" name="derfelot/android_external_sonivox" remote="github" revision="cm-12.1" />
+  <project path="external/skia" name="derfelot/android_external_skia" remote="github" revision="cm-12.1" />
 
   <!-- common Sony stuff -->
   <project name="derfelot/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="cm-12.1"/>
