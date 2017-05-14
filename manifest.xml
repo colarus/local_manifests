@@ -63,8 +63,8 @@
   <project name="derfelot/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="github" revision="cm-12.1" />
   <project name="derfelot/android_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" remote="github" revision="cm-12.1-test" />
   <project name="derfelot/android_platform_external_giflib" path="external/giflib" remote="github" revision="cm-12.1-test" />  
-  <project path="external/sonivox" name="derfelot/android_external_sonivox" remote="github" revision="cm-12.1-test" />
-  <project path="external/skia" name="derfelot/android_external_skia" remote="github" revision="cm-12.1-test" />
+  <project path="external/sonivox" name="derfelot/android_external_sonivox" remote="github" revision="cm-12.1" />
+  <project path="external/skia" name="derfelot/android_external_skia" remote="github" revision="cm-12.1" />
 
   <!-- common Sony stuff -->
   <project name="derfelot/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="cm-12.1-test"/>
