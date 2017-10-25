@@ -13,6 +13,6 @@
   <project name="cm12-amami/android_device_sony_rhine-common" path="device/sony/rhine-common" revision="cm-12.1-twrp"/>
 
   <!-- zUltra -->
-  <project name="LineageOS/android_device_sony_togari" path="device/sony/togari" remote="github" revision="cm-12.1-twrp"/>
+  <project name="LineageOS/android_device_sony_togari" path="device/sony/togari" remote="github" revision="cm-12.1"/>
 
 </manifest>
